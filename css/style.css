@@ -65,6 +65,7 @@ body {
     line-height: 24px;
     color: #595959;
     width: 400px;
+    margin: 0 0 0 0;
 }
 
 /* my-projects-section */
@@ -87,12 +88,12 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color:#595959;
+    color: #595959;
     margin-left: 5px;
 }
 
 .my-project-link {
-    color:#595959;
+    color: #595959;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -118,12 +119,12 @@ body {
 }
 
 .my-work-expirience-university {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 20px;
-        color: #FB6D3A;
-        padding: 0 0 10 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    padding: 0 0 10 0;
 }
 
 .my-work-expirience-managment {
@@ -179,7 +180,7 @@ body {
 
 /* sidebar-section */
 .sidebar-section {
-    background-color:#1E2939;
+    background-color: #1E2939;
     width: 370px;
     padding: 40px 0;
 }
