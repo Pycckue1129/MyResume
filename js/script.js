@@ -30,13 +30,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
     tabsParent.addEventListener('click', (event) => {
         const target = event.target;
-        console.log(target);
+        // console.log(target);
+        // console.log(target.classList.contains('tabheader__item'));
         if (target && target.classList.contains('tabheader__item')) {
             tabs.forEach((item, i) => {
                 if (target == item) {
                     hideContent();
                     showContent(i);
-                    console.log(item);
                 }
             });
         }
