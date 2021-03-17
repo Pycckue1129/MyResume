@@ -115,7 +115,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #FB6D3A;
+    color: rgb(0, 219, 0);
 }
 
 .my-work-expirience-university {
@@ -252,7 +252,8 @@ body {
     font-size: 14px;
     font-weight: 300;
     margin-top: 10px;
-    color: rgba(0, 0, 0, .6);
+    color: #000000;
+
     cursor: pointer;
     transition: .3s all;
     margin-right: 0px;
@@ -260,7 +261,7 @@ body {
 }
 
 .tabheader__item_active {
-    color: #000;
+    color: #fd4400;
     font-size: 17px;
     font-weight: 700
 }
