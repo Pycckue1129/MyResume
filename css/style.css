@@ -16,7 +16,7 @@ body {
 
 
 .main-content-section {
-    padding: 100px 90px;
+    padding: 50px 90px;
 }
 
 .main-content-title {
@@ -40,7 +40,7 @@ body {
     font-size: 14px;
     line-height: 17px;
     color: black;
-    padding: 0 0 20px 0;
+    padding: 0 0 0px 0;
 }
 
 .about-me-name {
@@ -49,7 +49,7 @@ body {
     font-size: 45px;
     line-height: 55px;
     color: #000;
-    margin: 0 0 25px 0;
+    margin: 0 0 0px 0;
 }
 
 .about-me-profession {
@@ -236,4 +236,40 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+}
+
+.tabheader__items {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding-left: 26px;
+    border-left: 1px solid #000;
+    margin-bottom: 35px;
+}
+
+.tabheader__item {
+    font-weight: 700;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, .6);
+    cursor: pointer;
+    transition: .3s all
+}
+
+.tabheader__item_active {
+    color: #000;
+    font-size: 17px;
+    font-weight: 700
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.img {
+    margin-left: -20px;
 }
