@@ -162,7 +162,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #080000;
 }
 
 .my-work-expirience-slash {
@@ -244,12 +244,12 @@ body {
     padding-left: 26px;
     border-left: 1px solid #000;
     margin-bottom: 35px;
-    width: 280px;
+    width: 380px;
 }
 
 .tabheader__item {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     margin-top: 10px;
     color: #000000;
@@ -257,12 +257,12 @@ body {
     cursor: pointer;
     transition: .3s all;
     margin-right: 0px;
-    width: 280px;
+    width: 380px;
 }
 
 .tabheader__item_active {
     color: #fd4400;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 700
 }
 
@@ -276,4 +276,24 @@ body {
 
 .img {
     margin-left: -20px;
+}
+
+.year {
+    font-size: 10px;
+    color: grey;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
